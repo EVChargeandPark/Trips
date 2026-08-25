@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Narita to Kansai</title>
+<meta name="description" content="A nine-night Melbourne-to-Japan itinerary for two adults and two teenagers, 20-29 September 2026 - Tokyo, Hakone, Kyoto and Osaka - built around Silver Week crowds, point-to-point rail instead of a JR Pass, and a Kansai open-jaw return.">
+<meta name="author" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Narita to Kansai">
+<meta property="og:description" content="A nine-night Melbourne-to-Japan itinerary for two adults and two teenagers, 20-29 September 2026 - Tokyo, Hakone, Kyoto and Osaka - built around Silver Week crowds, point-to-point rail instead of a JR Pass, and a Kansai open-jaw return.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9A%84%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ground:      #F2F4F7;
+    --paper:       #FFFFFF;
+    --paper-sunk:  #E9ECF2;
+    --ink:         #131822;
+    --body:        #333D4D;
+    --muted:       #6B7688;
+    --faint:       #97A1B2;
+    --rule:        #D5DBE4;
+    --rule-soft:   #E4E8EF;
+
+    --rail:        #17457E;
+    --rail-lt:     #2E6BB8;
+    --rail-wash:   #E3EBF6;
+
+    --flag:        #B3402C;
+    --flag-wash:   #F8E7E2;
+
+    --go:          #2F6A4F;
+    --go-wash:     #E2EFE8;
+
+    --sun:         #99671A;
+    --sun-wash:    #F6ECD8;
+
+    --shadow: 0 1px 2px rgba(19,24,34,.05), 0 8px 24px -12px rgba(19,24,34,.14);
+
+    --display: "Zen Kaku Gothic New", "Hiragino Sans", "Segoe UI", system-ui, sans-serif;
+    --serif:   "Source Serif 4", Georgia, "Times New Roman", serif;
+    --mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:     #0D1117;
+      --paper:      #151B24;
+      --paper-sunk: #1C232E;
+      --ink:        #EAEEF4;
+      --body:       #BCC5D2;
+      --muted:      #8B95A5;
+      --faint:      #697384;
+      --rule:       #2A323F;
+      --rule-soft:  #222A35;
+
+      --rail:       #86B4EA;
+      --rail-lt:    #5E96D6;
+      --rail-wash:  #17243A;
+
+      --flag:       #E58B76;
+      --flag-wash:  #33201B;
+
+      --go:         #7DBE9B;
+      --go-wash:    #16281F;
+
+      --sun:        #D8B071;
+      --sun-wash:   #2C2415;
+
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:     #0D1117;
+    --paper:      #151B24;
+    --paper-sunk: #1C232E;
+    --ink:        #EAEEF4;
+    --body:       #BCC5D2;
+    --muted:      #8B95A5;
+    --faint:      #697384;
+    --rule:       #2A323F;
+    --rule-soft:  #222A35;
+
+    --rail:       #86B4EA;
+    --rail-lt:    #5E96D6;
+    --rail-wash:  #17243A;
+
+    --flag:       #E58B76;
+    --flag-wash:  #33201B;
+
+    --go:         #7DBE9B;
+    --go-wash:    #16281F;
+
+    --sun:        #D8B071;
+    --sun-wash:   #2C2415;
+
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--body);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 24px 96px;
+  }
+
+  /* ---------- masthead ---------- */
+
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 56px 0 22px;
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--rail);
+    margin: 0 0 18px;
+  }
+  h1 {
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    line-height: 1.02;
+    letter-spacing: -.028em;
+    color: var(--ink);
+    margin: 0 0 20px;
+    text-wrap: balance;
+  }
+  .standfirst {
+    font-size: 1.16rem;
+    line-height: 1.55;
+    color: var(--muted);
+    max-width: 34em;
+    margin: 0 0 30px;
+  }
+  .vitals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .vital {
+    flex: 1 1 160px;
+    padding: 14px 20px 12px 0;
+    border-right: 1px solid var(--rule-soft);
+  }
+  .vital:last-child { border-right: 0; }
+  .vital dt {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-bottom: 5px;
+  }
+  .vital dd {
+    margin: 0;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+
+  /* ---------- structure ---------- */
+
+  section { margin: 0 0 60px; scroll-margin-top: 20px; }
+
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 9px;
+    margin-bottom: 26px;
+  }
+  .sec-num {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--rail);
+    letter-spacing: .06em;
+    flex: none;
+  }
+  h2 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 1.62rem;
+    letter-spacing: -.018em;
+    color: var(--ink);
+    margin: 0;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+  h3 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: -.008em;
+    color: var(--ink);
+    margin: 34px 0 10px;
+    line-height: 1.3;
+  }
+  p { margin: 0 0 15px; max-width: 66ch; }
+  a { color: var(--rail); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--rail-lt); outline-offset: 3px; border-radius: 2px; }
+  strong { color: var(--ink); font-weight: 600; }
+  .yen, .num { font-family: var(--mono); font-size: .92em; font-variant-numeric: tabular-nums; }
+
+  ul.notes { margin: 0 0 16px; padding-left: 0; list-style: none; max-width: 66ch; }
+  ul.notes li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 9px;
+  }
+  ul.notes li::before {
+    content: "";
+    position: absolute;
+    left: 3px; top: .62em;
+    width: 6px; height: 6px;
+    border: 1.5px solid var(--rail);
+    border-radius: 50%;
+  }
+
+  /* ---------- alert stack ---------- */
+
+  .alerts { display: grid; gap: 14px; }
+  .alert {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--flag);
+    border-radius: 3px;
+    padding: 18px 20px;
+    box-shadow: var(--shadow);
+  }
+  .alert.warm { border-left-color: var(--sun); }
+  .alert.good { border-left-color: var(--go); }
+  .alert h3 {
+    margin: 0 0 6px;
+    font-size: 1.02rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .alert p { margin: 0 0 8px; font-size: .96rem; }
+  .alert p:last-child { margin-bottom: 0; }
+  .tag {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    border-radius: 2px;
+    background: var(--flag-wash);
+    color: var(--flag);
+    flex: none;
+  }
+  .alert.warm .tag { background: var(--sun-wash); color: var(--sun); }
+  .alert.good .tag { background: var(--go-wash); color: var(--go); }
+
+  /* ---------- tables ---------- */
+
+  .scroller {
+    overflow-x: auto;
+    margin: 0 0 18px;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    background: var(--paper);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 560px;
+    font-size: .93rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--rule-soft);
+    vertical-align: top;
+  }
+  thead th {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--paper-sunk);
+    border-bottom: 1px solid var(--rule);
+    white-space: nowrap;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.n { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink); }
+  td.name { font-family: var(--display); font-weight: 500; color: var(--ink); }
+  tr.pick td { background: var(--rail-wash); }
+  tr.pick td.name::after {
+    content: "PICK";
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: .1em;
+    color: var(--rail);
+    border: 1px solid var(--rail);
+    border-radius: 2px;
+    padding: 1px 4px;
+    margin-left: 8px;
+    vertical-align: 2px;
+  }
+
+  /* ---------- itinerary rail ---------- */
+
+  .rail-line { position: relative; padding-left: 30px; }
+  .rail-line::before {
+    content: "";
+    position: absolute;
+    left: 5px; top: 10px; bottom: 10px;
+    width: 2px;
+    background: linear-gradient(var(--rule), var(--rule));
+  }
+  .day { position: relative; padding: 0 0 30px; }
+  .day::before {
+    content: "";
+    position: absolute;
+    left: -30px; top: 7px;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: var(--paper);
+    border: 2.5px solid var(--rail);
+  }
+  .day.move::before { background: var(--rail); }
+  .day-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 12px;
+    margin-bottom: 7px;
+  }
+  .day-date {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    flex: none;
+  }
+  .day-title {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 1.08rem;
+    color: var(--ink);
+    line-height: 1.25;
+  }
+  .day-body { font-size: .97rem; }
+  .day-body p { margin: 0 0 9px; }
+  .day-body p:last-child { margin-bottom: 0; }
+  .chip {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border-radius: 2px;
+    background: var(--paper-sunk);
+    color: var(--muted);
+    vertical-align: 2px;
+  }
+  .chip.hol { background: var(--flag-wash); color: var(--flag); }
+  .chip.trn { background: var(--rail-wash); color: var(--rail); }
+  .leg {
+    font-family: var(--mono);
+    font-size: .84rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--rail);
+    border-radius: 2px;
+    padding: 8px 11px;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+
+  /* ---------- checklist ---------- */
+
+  .check { display: grid; gap: 0; border: 1px solid var(--rule); border-radius: 3px; background: var(--paper); overflow: hidden; }
+  .check-row {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    gap: 14px;
+    padding: 13px 16px;
+    border-bottom: 1px solid var(--rule-soft);
+    align-items: start;
+  }
+  .check-row:last-child { border-bottom: 0; }
+  .check-when {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--flag);
+    padding-top: 3px;
+  }
+  .check-row.later .check-when { color: var(--muted); }
+  .check-what { font-size: .95rem; }
+  .check-what b { font-family: var(--display); font-weight: 700; color: var(--ink); }
+
+  /* ---------- callout ---------- */
+
+  .verdict {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--rail);
+    border-radius: 3px;
+    padding: 20px 22px;
+    margin: 22px 0;
+    box-shadow: var(--shadow);
+  }
+  .verdict h3 { margin: 0 0 8px; font-size: 1.05rem; }
+  .verdict p { margin: 0 0 10px; font-size: .97rem; }
+  .verdict p:last-child { margin-bottom: 0; }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 22px;
+    font-size: .86rem;
+    color: var(--faint);
+  }
+  footer p { max-width: none; }
+
+  @media (max-width: 620px) {
+    body { font-size: 16px; }
+    .wrap { padding: 0 18px 72px; }
+    .vital { flex: 1 1 45%; border-right: 0; }
+    .check-row { grid-template-columns: 1fr; gap: 4px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+
+  /* ---- standalone additions (GitHub Pages build) ---- */
+  dl { margin: 0; }
+
+  .theme-toggle {
+    position: fixed;
+    top: 14px; right: 14px;
+    z-index: 50;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 7px 11px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+  }
+  .theme-toggle:hover { color: var(--ink); border-color: var(--rail); }
+  .theme-toggle:focus-visible { outline: 2px solid var(--rail-lt); outline-offset: 2px; }
+  .theme-toggle svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.7; }
+  .theme-toggle .sun-i { display: none; }
+  :root[data-theme="dark"] .theme-toggle .sun-i { display: block; }
+  :root[data-theme="dark"] .theme-toggle .moon-i { display: none; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .theme-toggle .sun-i { display: block; }
+    :root:not([data-theme="light"]) .theme-toggle .moon-i { display: none; }
+  }
+
+  @media print {
+    :root {
+      --ground: #fff; --paper: #fff; --paper-sunk: #f4f4f4;
+      --ink: #000; --body: #1c1c1c; --muted: #444; --faint: #666;
+      --rule: #bbb; --rule-soft: #ddd; --shadow: none;
+    }
+    .theme-toggle { display: none; }
+    .wrap { max-width: none; padding: 0; }
+    .masthead { padding-top: 0; }
+    section { break-inside: auto; margin-bottom: 34px; }
+    .day, .alert, .verdict, .check-row, tr { break-inside: avoid; }
+    h2, h3 { break-after: avoid; }
+    .scroller { overflow: visible; }
+    table { min-width: 0; font-size: 10pt; }
+    a { color: #000; text-decoration: none; }
+    body { font-size: 10.5pt; }
+  }
+</style>
+<script>
+  // Apply the saved theme before first paint so the page never flashes.
+  try {
+    var t = localStorage.getItem('n2k-theme');
+    if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+  } catch (e) {}
+</script>
+</head>
+<body>
+
+<button class="theme-toggle" type="button" id="themeToggle" aria-label="Switch between light and dark theme">
+  <svg class="moon-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+  <svg class="sun-i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.5 1.5M17.6 17.6l1.5 1.5M19.1 4.9l-1.5 1.5M6.4 17.6l-1.5 1.5"/></svg>
+  <span>Theme</span>
+</button>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Melbourne · 20–29 September 2026 · 2 adults + 17 &amp; 14</p>
+    <h1>Narita to Kansai</h1>
+    <p class="standfirst">Nine nights, four bases, one shinkansen line. Built around two facts most itineraries miss: your first four days land inside Japan's biggest autumn holiday, and the Tokyo Game Show is on the day after you arrive.</p>
+    <dl class="vitals">
+      <div class="vital"><dt>Route</dt><dd>Tokyo → Hakone → Kyoto → Osaka</dd></div>
+      <div class="vital"><dt>Nights</dt><dd>4 · 1 · 2 · 2</dd></div>
+      <div class="vital"><dt>Est. total</dt><dd>A$13,500–16,000</dd></div>
+      <div class="vital"><dt>Book by</dt><dd>This week</dd></div>
+    </dl>
+  </header>
+
+  <section id="urgent">
+    <div class="sec-head"><span class="sec-num">01</span><h2>Three things that reshape the plan</h2></div>
+
+    <div class="alerts">
+      <div class="alert">
+        <h3><span class="tag">Silver Week</span> Your first four days are a national holiday</h3>
+        <p>19–23 September 2026 is a rare five-day holiday block — Respect for the Aged Day (Mon 21), a bridge holiday (Tue 22) and the Autumn Equinox (Wed 23). The last one this long was 2015. Kyoto hotel rates run about 53% above a normal midweek night, Osaka 57%.</p>
+        <p><strong>What I've done about it:</strong> parked all four holiday nights in Tokyo, which has the deepest hotel supply in Japan and the smallest percentage uplift, and pushed Hakone, Kyoto and Osaka to 24 September onward when prices fall away. Hakone on 20–23 September would have been the single worst call available — it's Tokyo's default long-weekend escape.</p>
+        <p>One hard rule: <strong>every Nozomi between Tokyo and Hakata is reserved-seat-only from Fri 18 to Wed 23 September.</strong> No unreserved carriages at all. You aren't moving cities in that window under this plan, so it doesn't bite you.</p>
+      </div>
+
+      <div class="alert warm">
+        <h3><span class="tag">Timing</span> Tokyo Game Show is on 21 September</h3>
+        <p>The 30th anniversary edition runs at Makuhari Messe in Chiba, with public days on 19, 20 and <strong>21 September</strong> — the day after you land. Tickets are <span class="yen">¥3,000</span> for anyone 13 or over, sold online only, with nothing available at the venue. For a 17- and 14-year-old this may be the best thing in the entire trip, and it happens on day two or not at all.</p>
+        <p>Be realistic about it: public days draw well over 100,000 people and it's a holiday Monday. Go early, agree a meeting point, and treat it as a half-day rather than a full one.</p>
+      </div>
+
+      <div class="alert good">
+        <h3><span class="tag">Deadline</span> You are 26 days out — book flights and Tokyo hotels first</h3>
+        <p>The optimal booking window for this route is 6–14 weeks ahead; under four weeks typically costs A$200–500 more per person. Waiting will not help you. The specific pressure point is that <strong>QF79 is the only nonstop leaving Melbourne on Sunday 20 September</strong>, so four seats in the same fare bucket are a finite resource.</p>
+        <p>Shinkansen reservations open exactly 30 days ahead at 10:00 JST — so your Odawara→Kyoto seats for 25 September go on sale <strong>tomorrow, 26 August, at 11:00 AEST.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="flights">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Flights: the Osaka ending decides this</h2></div>
+
+    <p>Start with what doesn't exist, because a lot of stale advice online says otherwise. There is <strong>no Qantas Melbourne–Haneda flight</strong> (it ended in November 2023). <strong>Jetstar doesn't fly Melbourne–Japan at all</strong> — its Japan network is Brisbane and Cairns only. And <strong>JAL's Melbourne–Narita service is three times a week</strong> (Mon/Wed/Sat) until 24 October, so there is no JAL flight on Sunday 20 September.</p>
+
+    <p>That leaves one nonstop out, and a real choice about how you come home.</p>
+
+    <div class="scroller">
+      <table>
+        <thead>
+          <tr><th>Option</th><th>Outbound</th><th>Home</th><th>Per adult</th><th>The trade</th></tr>
+        </thead>
+        <tbody>
+          <tr class="pick">
+            <td class="name">Singapore Airlines<br><span class="yen">open jaw</span></td>
+            <td class="n">SQ228 MEL 15:20<br>SQ638 SIN 23:55<br>→ NRT 07:35 (21st)</td>
+            <td class="n">SQ623 KIX 23:25<br>SQ207 SIN 07:50<br>→ MEL 18:05</td>
+            <td class="n">~A$1,150–1,400</td>
+            <td>Flies home from Kansai at 23:25, so you keep the entire last day in Osaka. Changi layovers of 3h15 and 2h10. Costs you the evening of the 20th.</td>
+          </tr>
+          <tr>
+            <td class="name">Cathay Pacific<br><span class="yen">open jaw</span></td>
+            <td class="n">CX178 MEL 23:45<br>CX520 HKG 10:40<br>→ NRT 15:30 (21st)</td>
+            <td class="n">CX595 KIX 18:30<br>CX105 HKG 00:20<br>→ MEL 13:20</td>
+            <td class="n">~A$1,250–1,500</td>
+            <td><strong>2 × 23 kg each</strong> — 184 kg for the family, easily the best baggage on offer if you plan to shop. Lands Tokyo mid-afternoon on the 21st, which writes off Game Show day.</td>
+          </tr>
+          <tr>
+            <td class="name">Qantas nonstop</td>
+            <td class="n">QF79 MEL 09:35<br>→ NRT 19:00 (20th)<br>10h25, A330-300</td>
+            <td class="n">QF80 NRT 20:25<br>→ MEL 07:50 (30th)</td>
+            <td class="n">~A$1,500–1,750</td>
+            <td>Simplest, and the only way to arrive on the 20th. But you fly home from <em>Narita</em>, so you must leave Osaka around midday on the 29th and pay roughly A$660 to get four people back to Tokyo.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="verdict">
+      <h3>My call</h3>
+      <p><strong>Price the Singapore Airlines multi-city first</strong> — Melbourne→Narita on the 20th, Kansai→Melbourne on the 29th. Against the Qantas return it saves roughly A$1,400 in airfare across four people <em>and</em> about A$660 in shinkansen tickets you'd otherwise burn getting back to Narita. That's around A$2,000, or a very good Hakone night plus USJ Express Passes.</p>
+      <p>An open jaw prices at roughly the same level as a plain Tokyo return on any of the one-stop carriers, because the fares build as two half-returns. On Qantas or JAL it doesn't — neither flies to Kansai.</p>
+      <p><strong>Take Qantas instead if Tokyo Game Show is non-negotiable.</strong> QF79 gets you to the hotel by about 21:30 on the 20th and hands you a full day on the 21st. Singapore lands at 07:35 that morning, which still leaves a workable afternoon at Makuhari after an overnight flight — just a tired one. Cathay's 15:30 arrival does not.</p>
+    </div>
+
+    <h3>What reviewers actually say</h3>
+    <ul class="notes">
+      <li><strong>JAL's 787 is the best economy seat on the route</strong> — 18.8" wide, 33–34" pitch, against the Qantas A330's 17"/31". Its weakness is the entertainment system, repeatedly described as overdue for a refresh. Worth knowing: <span class="yen">JL773</span> <em>does</em> fly Narita→Melbourne on Tuesday 29 September (18:40), so if you go the Qantas route you could still come home on the better aircraft.</li>
+      <li><strong>Singapore and Cathay are both Skytrax 5-star; Qantas is not.</strong> On this comparison you are paying more for Qantas to get the nonstop and the schedule, not for a better cabin.</li>
+      <li><strong>Skip Scoot.</strong> Its headline fare looks A$300 cheaper, but with no checked bag, no meals, no seatback screens and even power outlets charged as an extra, a family of four lands within A$100–200 of Cathay — who include two bags each and feed you. Reviewers on the long-haul 787 are blunt about it.</li>
+      <li><strong>Ignore the A$870 fares on the Chinese carriers.</strong> Those itineraries run 25–35 hours each way. On a nine-night trip you'd spend three days of it in transit to save A$300 a head.</li>
+    </ul>
+  </section>
+
+  <section id="rail">
+    <div class="sec-head"><span class="sec-num">03</span><h2>Rail: don't buy the JR Pass</h2></div>
+
+    <p>This is the biggest money mistake available to you, and almost every generic Japan guide will push you into it. The 7-day national pass is <span class="yen">¥50,000</span> per person. On a Tokyo–Hakone–Kyoto–Osaka run you would extract about <span class="yen">¥39,000</span> of JR value — you lose roughly <span class="yen">¥11,000</span> each, near enough to <strong>A$390 across the family.</strong></p>
+
+    <p>Four reasons it fails here rather than in general: your trip is ten days and the pass covers seven; the pass excludes Nozomi without a supplement; <strong>nothing in Hakone is JR</strong> (the mountain railway, cable car, ropeway and pirate ship are all Odakyu, so you buy a Hakone Freepass either way); and the pass only breaks even once you add a long run like Hiroshima or Kanazawa, which you aren't doing.</p>
+
+    <p>One thing to be clear-eyed about: on Japanese railways <strong>a child is 6–11</strong>. Your 14- and 17-year-old both pay full adult fare on every train, and count as adults for hotel occupancy too.</p>
+
+    <div class="scroller">
+      <table>
+        <thead><tr><th>Leg</th><th>How</th><th>Per person</th><th>Family of 4</th><th>Time</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Narita → Tokyo</td><td>Airport Bus TYO-NRT</td><td class="n">¥1,500</td><td class="n">¥6,000</td><td class="n">~65 min</td></tr>
+          <tr><td class="name">Tokyo → Hakone</td><td>Hakone Freepass (2-day, from Shinjuku)</td><td class="n">¥7,100</td><td class="n">¥28,400</td><td class="n">—</td></tr>
+          <tr><td class="name">↳ Romancecar seat</td><td>Odakyu surcharge, Shinjuku → Hakone-Yumoto</td><td class="n">¥1,200</td><td class="n">¥4,800</td><td class="n">~80 min</td></tr>
+          <tr><td class="name">Odawara → Kyoto</td><td>Hikari, reserved <span class="yen">(no Nozomi at Odawara)</span></td><td class="n">¥12,100</td><td class="n">¥48,400</td><td class="n">1h45–2h05</td></tr>
+          <tr><td class="name">Kyoto → Osaka</td><td>JR Special Rapid — <strong>not</strong> the shinkansen</td><td class="n">¥580</td><td class="n">¥2,320</td><td class="n">28 min</td></tr>
+          <tr><td class="name">Osaka → Kansai</td><td>Nankai airport express from Namba</td><td class="n">~¥1,000</td><td class="n">~¥4,000</td><td class="n">~45 min</td></tr>
+          <tr><td class="name">Bags Tokyo → Kyoto</td><td>Yamato takkyubin, per case</td><td class="n">~¥2,500</td><td class="n">~¥10,000</td><td class="n">next day</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>That's roughly <span class="yen">¥104,000</span> — about <strong>A$920</strong> — plus IC card top-ups for local travel. Against <span class="yen">¥200,000</span> for four JR Passes that still wouldn't cover Hakone.</p>
+
+    <h3>Three things that will make the trip noticeably easier</h3>
+    <ul class="notes">
+      <li><strong>Forward the big suitcases from Tokyo to Kyoto.</strong> About <span class="yen">¥2,500</span> a case, arranged at the hotel front desk. It is <em>next-day</em>, not same-day, so hand them over on the morning of Thursday 24th to have them waiting when you reach Kyoto on Friday evening. It means you do Hakone — mountain railway, cable car, ropeway, boat, a lot of steps — carrying daypacks only.</li>
+      <li><strong>Put Suica in Apple Wallet before you fly.</strong> Wallet → + → Transit Card → Suica. No deposit, no expiry, tops up with your Australian card from anywhere. Physical cards take cash only. Android phones bought in Australia lack the FeliCa chip, so anyone on Android buys a plastic card at Narita.</li>
+      <li><strong>Book the shinkansen on SmartEX as each date opens</strong> — 30 days ahead at 10:00 JST, which is 11:00 AEST. Four seats together on a peak train is a harder ask than one. Ask your bank to enable 3D Secure first; overseas cards get declined on Japanese ticketing sites constantly without it.</li>
+    </ul>
+  </section>
+
+  <section id="itinerary">
+    <div class="sec-head"><span class="sec-num">04</span><h2>Day by day</h2></div>
+
+    <div class="rail-line">
+
+      <div class="day move">
+        <div class="day-head"><span class="day-date">Sun 20 Sep</span><span class="day-title">Melbourne → Tokyo</span></div>
+        <div class="day-body">
+          <div class="leg">QF79 · MEL 09:35 → NRT 19:00 · 10h25<br>Airport Bus TYO-NRT → Tokyo Station, ~65 min, ¥1,500pp</div>
+          <p>If you're on Singapore or Cathay you're in the air tonight and this day belongs to the flight. On Qantas you'll clear Narita around 20:00 and be at the hotel by 21:30 — enough for a konbini raid and nothing else, which is the correct ambition after ten hours.</p>
+          <p>Fill in <a href="https://www.vjw.digital.go.jp/">Visit Japan Web</a> for all four of you before you fly. It's optional but it saves a queue with teenagers in it.</p>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-head"><span class="day-date">Mon 21 Sep</span><span class="chip hol">Public holiday</span><span class="day-title">Tokyo Game Show, or Ueno &amp; Akihabara</span></div>
+        <div class="day-body">
+          <p><strong>The gaming option:</strong> Makuhari Messe, final public day, 09:30–17:00. <span class="yen">¥3,000</span> each for the three of you over 13, online in advance — there are no tickets at the door. Roughly 40 minutes from Tokyo Station on the Keiyō Line. Go for the doors, do four or five hours, leave before the 16:00 crush.</p>
+          <p><strong>The alternative:</strong> Ueno Park and Ameyoko market in the morning, then Akihabara all afternoon — Super Potato's retro floors, the gachapon halls, Yodobashi Akiba, and the arcades where a 14-year-old can lose two hours to a rhythm game. Free, and it absorbs a holiday crowd better than anywhere with a queue.</p>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-head"><span class="day-date">Tue 22 Sep</span><span class="chip hol">Public holiday</span><span class="day-title">Shibuya, Harajuku and the sunset</span></div>
+        <div class="day-body">
+          <p>Be on the PARCO stairs by <strong>09:30</strong> for <strong>Nintendo TOKYO</strong> — staff open the stairwell then, and the lifts to the 6th floor don't run until about 11:15. Pokémon Center Shibuya is on the same floor. Then Shibuya 109, the Scramble, Miyashita Park, and Harajuku's Takeshita-dōri for the 14-year-old's benefit.</p>
+          <p><strong>Shibuya Sky at sunset</strong> is the one Tokyo view worth paying for with teenagers — an open rooftop rather than a window. <span class="yen">¥2,500</span> online against <span class="yen">¥3,000</span> at the door. Sunset is around 17:30 in late September; book the slot 30–45 minutes before. Tickets release about two weeks ahead at midnight JST and the sunset slots go in minutes, so <strong>set an alarm for around 6 September.</strong></p>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-head"><span class="day-date">Wed 23 Sep</span><span class="chip hol">Public holiday</span><span class="day-title">teamLab and the eastern city</span></div>
+        <div class="day-body">
+          <p><strong>teamLab Planets</strong> in Toyosu — <span class="yen">¥3,600</span> adult, <span class="yen">¥2,800</span> for both teens on the 13–17 band. Advance tickets only; nothing is sold on site. You wade through water in one room, so wear shorts or trousers that roll above the knee. Check the date, as it closes some Thursdays. <strong>teamLab Borderless</strong> at Azabudai Hills is the alternative if Planets is sold out — bigger, drier, no time limit inside.</p>
+          <p>Afternoon at Tokyo Skytree and Solamachi, or Nakano Broadway if the teens want Mandarake's floors of retro games and figures without Akihabara's crowds. <strong>Kirby Café</strong> at Skytree needs a reservation that sells out in seconds — <strong>Kirby Café Petit at Tokyo Station takes no booking at all</strong> and is the fallback that actually works.</p>
+        </div>
+      </div>
+
+      <div class="day move">
+        <div class="day-head"><span class="day-date">Thu 24 Sep</span><span class="chip trn">Move</span><span class="day-title">Tokyo → Hakone</span></div>
+        <div class="day-body">
+          <p><strong>Before you leave the hotel:</strong> hand the two big suitcases to the front desk for forwarding to your Kyoto hotel. They'll want the name, address, phone and your check-in date.</p>
+          <div class="leg">Buy the Hakone Freepass at Shinjuku (2-day, ¥7,100pp)<br>Odakyu Romancecar · Shinjuku → Hakone-Yumoto · ~80 min · +¥1,200pp</div>
+          <p>Holidays ended yesterday, so you're moving into Hakone exactly as everyone else moves out. Afternoon at the <strong>Hakone Open-Air Museum</strong> — a hillside of sculpture with climbable net structures, a Picasso pavilion and a hot-spring foot bath. <span class="yen">¥2,000</span> adult, <span class="yen">¥1,600</span> for the 17-year-old on the high-school rate, <span class="yen">¥800</span> for the 14-year-old. Book online to save <span class="yen">¥200</span>; the Freepass gets a discount but doesn't cover it.</p>
+          <p>Then the onsen, which is the point of the night. If either teenager balks at communal bathing, this is solved rather than negotiated — book somewhere with reservable private baths, or take an hour at <a href="https://www.hakoneyuryo.jp/en/">Hakone Yuryo</a>, three minutes from Hakone-Yumoto, which has 19 private open-air baths for day use.</p>
+        </div>
+      </div>
+
+      <div class="day move">
+        <div class="day-head"><span class="day-date">Fri 25 Sep</span><span class="chip trn">Move</span><span class="day-title">The Hakone loop, then Kyoto</span></div>
+        <div class="day-body">
+          <p><strong>Start early — 06:00 to 09:00 is when Fuji is most likely to be out.</strong> Late September gives you roughly a 30–40% chance on any given day, and cloud builds through the morning. Check <a href="https://isfujivisible.com/">isfujivisible.com</a> when you wake; if it's clear, reorder the day to get on the ropeway first.</p>
+          <div class="leg">Tozan Railway → Gora → cable car → Sōunzan<br>Ropeway over Ōwakudani → Tōgendai<br>Pirate ship across Lake Ashi → Motohakone<br>All covered by the Freepass</div>
+          <p>The switchback railway is genuinely good — the driver and guard swap ends three times on the way up. At <strong>Ōwakudani</strong> the sulphur vents boil the black eggs that supposedly add seven years to your life; buy them, eat them, take the photo. Then the pirate ship, which is exactly as unserious as it sounds and reliably lands with teenagers.</p>
+          <div class="leg">Bus to Odawara · Hikari to Kyoto · 1h45–2h05 · ¥12,100pp reserved<br>Seats open 26 Aug, 11:00 AEST on SmartEX</div>
+          <p>Into Kyoto in the evening, where your suitcases are already waiting.</p>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-head"><span class="day-date">Sat 26 Sep</span><span class="day-title">Kyoto: shrine, market, samurai</span></div>
+        <div class="day-body">
+          <p><strong>Fushimi Inari before 08:00.</strong> It's free and open around the clock, and the hour is the whole trick — by mid-morning the tunnel of torii is shoulder-to-shoulder. Most people turn back at Yotsutsuji, about 45 minutes up, where the view over the city is. The full summit loop is two to three hours if anyone's keen.</p>
+          <p>Lunch at <strong>Nishiki Market</strong>. One local rule worth passing on to the teenagers: don't eat while walking. It reads as genuinely rude here — eat at the stall.</p>
+          <p>Afternoon at the <strong>Samurai &amp; Ninja Museum</strong>, four minutes from Nishiki — a 60-minute English tour with armour to try on, katana practice and shuriken throwing. <span class="yen">¥2,400</span> adult, <span class="yen">¥1,900</span> student. Book ahead; the groups are small. Kimono rental runs <span class="yen">¥3,190–4,180</span> for a basic plan if anyone wants it, and late September is still warm enough to ask for a lighter yukata.</p>
+          <p>Gion in the evening. Stay on the main streets — <strong>entering the private alleys carries a ¥10,000 fine</strong> and it is enforced, and don't photograph geiko or maiko without asking.</p>
+        </div>
+      </div>
+
+      <div class="day move">
+        <div class="day-head"><span class="day-date">Sun 27 Sep</span><span class="chip trn">Move</span><span class="day-title">Arashiyama, then Osaka</span></div>
+        <div class="day-body">
+          <p>Bamboo grove at dawn, same logic as yesterday — by 09:00 it's a queue rather than a grove. Tenryū-ji next door, and the Iwatayama Monkey Park up the hill for a view over Kyoto with macaques in it.</p>
+          <div class="leg">JR Special Rapid · Kyoto → Osaka Station · 28 min · ¥580pp</div>
+          <p>Check in around Namba or Umeda, then <strong>Dōtonbori after dark</strong>, which costs nothing and does more for a teenager's impression of Japan than most paid attractions. The Glico sign, takoyaki from a street stall, the transparent ferris wheel on the side of Don Quijote, and Den Den Town's anime and electronics floors a few minutes' walk away.</p>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-head"><span class="day-date">Mon 28 Sep</span><span class="day-title">Universal Studios Japan</span></div>
+        <div class="day-body">
+          <p>A non-holiday Monday is the best day this trip can give you — after Silver Week, off the weekend. Adult tickets run <span class="yen">¥8,900–10,900</span> depending on the date band, and <strong>at USJ 12 and over is an adult</strong>, so that's four full-price tickets. <strong>Buy online before you go</strong> — the ticket booths at the gate stopped operating in May 2025.</p>
+          <p>Two things people get wrong. First, <strong>Super Nintendo World usually needs a separate timed-entry area ticket</strong>, free through the USJ app but only once you're inside the park, and slots vanish early on busy days. Donkey Kong Country sits inside the same area and uses the same entry. Second, <strong>not every Express Pass includes Nintendo</strong> — read the inclusions line by line. Express Pass 7 is the sensible value point at <span class="yen">¥11,500–26,000</span>; with standby queues running 120–200 minutes in Halloween season, it's the difference between three rides and eight.</p>
+          <p>One age rule that matters to you: Halloween Horror Nights runs from 11 September, and two of the mazes are a hard ban for anyone <strong>14 and under</strong> — no exceptions, even with a parent present. The street zombies and shows are fine.</p>
+        </div>
+      </div>
+
+      <div class="day move">
+        <div class="day-head"><span class="day-date">Tue 29 Sep</span><span class="chip trn">Fly</span><span class="day-title">Last day in Osaka → home</span></div>
+        <div class="day-body">
+          <p><strong>On the Singapore open jaw</strong> you have the whole day. Kaiyukan aquarium opens at 10:00 and holds a whale shark; Umeda Sky Building's floating garden observatory is the good Osaka view; or one more run at Den Den Town. Nankai from Namba to Kansai is about 45 minutes, so leave around 20:00 for the 23:25 departure.</p>
+          <div class="leg">SQ623 · KIX 23:25 → SIN 05:40 · SQ207 07:50 → MEL 18:05</div>
+          <p><strong>On the Qantas return</strong> the day is a travel day. Narita by 17:30 for QF80 at 20:25 means Shin-Ōsaka by about 12:30 — a morning, not a day. That gap is the argument for the open jaw in one line.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="stay">
+    <div class="sec-head"><span class="sec-num">05</span><h2>Where to stay</h2></div>
+
+    <p>The structural problem in Japan is that most hotel rooms sleep two or three, and occupancy limits are legally enforced under the Fire Defense Law — you cannot simply put four people in a triple. So the shortlist below is built around rooms that genuinely sleep four, with two-room alternatives where they don't.</p>
+
+    <p>The chain doing this best is <strong>MIMARU</strong>, whose apartment-style rooms have real kitchens, separate bath and toilet, and 35–45 m² of floor — which with teenagers is the difference between a holiday and a stand-off. Prices below are recent tax-inclusive quotes for a normal midweek night; <strong>add 30–55% for the Tokyo nights of 20–23 September.</strong></p>
+
+    <div class="scroller">
+      <table>
+        <thead><tr><th>City</th><th>Hotel</th><th>Room</th><th>Station</th><th>Per night (4)</th></tr></thead>
+        <tbody>
+          <tr class="pick"><td class="n">Tokyo</td><td class="name">MIMARU Tokyo Ikebukuro</td><td>1-Bedroom, 4 singles or loft beds, kitchen</td><td>Ikebukuro, 5 min</td><td class="n">A$300–330<br><span style="color:var(--flag)">A$400–480 peak</span></td></tr>
+          <tr><td class="n">Tokyo</td><td class="name">MIMARU Tokyo Ueno East</td><td>Apartment, 4 singles, 38–40 m²</td><td>Ueno, 3 min</td><td class="n">A$380–440</td></tr>
+          <tr><td class="n">Tokyo</td><td class="name">Shinagawa Prince Hotel</td><td>Two twins — max 3 per room</td><td>Shinagawa, 2 min</td><td class="n">A$360–500</td></tr>
+          <tr class="pick"><td class="n">Hakone</td><td class="name">Yumoto Fujiya Hotel</td><td>Japanese-Western, sleeps 4, dinner + breakfast</td><td>Hakone-Yumoto, 3 min</td><td class="n">A$840–950</td></tr>
+          <tr><td class="n">Hakone</td><td class="name">Hotel Green Plaza Hakone</td><td>Fuji-view Japanese-Western, half board</td><td>Bus from Gōra</td><td class="n">A$700–810</td></tr>
+          <tr class="pick"><td class="n">Kyoto</td><td class="name">MIMARU Kyoto Station</td><td>Family Apartment 40 m², kitchen</td><td>Kyoto, 2 min</td><td class="n">A$390–460</td></tr>
+          <tr><td class="n">Kyoto</td><td class="name">HOTEL ELCIENT Kyoto</td><td>"Forth Room" 24 m², bunks, shower only</td><td>Kyoto, 2 min</td><td class="n">A$210–295</td></tr>
+          <tr class="pick"><td class="n">Osaka</td><td class="name">Hotel Hankyu RESPIRE</td><td>"Fourth" room, sleeps 4, twin basins</td><td>Osaka, 3 min</td><td class="n">A$310–390</td></tr>
+          <tr><td class="n">Osaka</td><td class="name">MIMARU Osaka Namba Station</td><td>Family Apartment 35–41 m², kitchen</td><td>Namba, 4 min</td><td class="n">A$460–550</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Why Ikebukuro over Shinjuku or Shibuya</h3>
+    <p>Shibuya is the place you want to <em>visit</em> and a painful place to sleep four — genuine quad rooms there are close to non-existent and you'd be booking two rooms at a premium. Shinjuku has the best transport in the city, including the direct Romancecar to Hakone, but MIMARU charges roughly 40% more there for an identical apartment.</p>
+    <p><strong>Ikebukuro has the highest concentration of what your teenagers came for</strong> — the world's largest Animate, Pokémon Center Mega Tokyo, Sunshine City, Namja Town — for the lowest price, and it's 16 minutes to Tokyo Station on the Yamanote. Shinjuku is 8 minutes away on the same line when you need the Romancecar on the 24th.</p>
+
+    <h3>Hakone, honestly</h3>
+    <p>A$600–800 buys a good onsen hotel with a buffet dinner, which for a 14- and 17-year-old is a considerably better night than a twelve-course kaiseki they'll poke at. It does <em>not</em> buy a kaiseki ryokan with a private open-air onsen in the room — those start around <span class="yen">¥25,000</span> per person. <strong>Yumoto Fujiya</strong> is my pick despite being at the top of the range: it's a three-minute walk from the station the Romancecar terminates at, it has reservable private hot-spring baths, and it runs several restaurants so nobody has to eat something they don't want to.</p>
+
+    <p class="check-what" style="color:var(--muted);font-size:.92rem;">One line item that won't appear in your booking total: lodging tax, collected at check-in. Kyoto raised its rate in March 2026 to <span class="yen">¥1,000</span> per person per night at this price band; Osaka is <span class="yen">¥500</span>; Tokyo <span class="yen">¥200</span>. Budget <span class="yen">¥8,000–12,000</span> across the trip.</p>
+  </section>
+
+  <section id="money">
+    <div class="sec-head"><span class="sec-num">06</span><h2>What it comes to</h2></div>
+
+    <div class="scroller">
+      <table>
+        <thead><tr><th>Line</th><th>Basis</th><th>Family of 4</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Flights</td><td>Singapore open jaw, 4 × A$1,150–1,400</td><td class="n">A$4,600–5,600</td></tr>
+          <tr><td class="name">Accommodation</td><td>9 nights, Silver Week loading on the first four</td><td class="n">A$3,800–4,400</td></tr>
+          <tr><td class="name">Rail &amp; transport</td><td>Point-to-point, Hakone Freepass, bag forwarding, IC top-ups</td><td class="n">A$1,000–1,150</td></tr>
+          <tr><td class="name">Attractions</td><td>USJ + Express Pass 7, teamLab, Shibuya Sky, TGS, museums</td><td class="n">A$1,400–2,000</td></tr>
+          <tr><td class="name">Food</td><td>~¥6,000 per person per day</td><td class="n">A$1,700–2,200</td></tr>
+          <tr><td class="name">Lodging tax &amp; sundries</td><td>Collected at check-in, plus eSIMs</td><td class="n">A$200–300</td></tr>
+          <tr class="pick"><td class="name">Total</td><td>Before shopping</td><td class="n">A$12,700–15,650</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Two pieces of timing luck</h3>
+    <ul class="notes">
+      <li><strong>You're inside the old tax-free system.</strong> Until 31 October 2026, spend <span class="yen">¥5,000</span> or more at one shop in one day, show your passport, and the tax comes off at the register. From 1 November Japan switches to paying full price and claiming a refund at the airport. You miss that by five weeks.</li>
+      <li><strong>The last week of September is the good weather.</strong> Expect humid 27–30°C days easing through the week, warm nights, and no autumn colour yet — Kyoto's foliage is a mid-November event. The 2026 typhoon season is forecast above average overall, but September approaches to Honshu are forecast <em>below</em> normal. Rail suspensions are announced the evening before, flights 24–48 hours out. Keep the Kyoto Railway Museum, teamLab and Kaiyukan in your pocket as wet-day swaps, and buy insurance that covers weather disruption.</li>
+    </ul>
+
+    <h3>Money</h3>
+    <p>Cards work almost everywhere in these four cities now, but carry <span class="yen">¥20,000–30,000</span> a head for small restaurants, shrines and markets. Seven Bank ATMs inside 7-Eleven are the default — English menus, foreign cards, everywhere. Always choose to be charged in <strong>yen, never in AUD</strong>; dynamic currency conversion at the terminal costs 3–7%. And ask your bank to enable 3D Secure before you go — SmartEX and several Japanese ticketing sites decline overseas cards without it.</p>
+  </section>
+
+  <section id="book">
+    <div class="sec-head"><span class="sec-num">07</span><h2>Book in this order</h2></div>
+
+    <div class="check">
+      <div class="check-row"><div class="check-when">Today</div><div class="check-what"><b>Flights.</b> Price the Singapore multi-city MEL→NRT / KIX→MEL against a Qantas return before anything else. QF79 is the only Sunday nonstop and four seats in one bucket won't last.</div></div>
+      <div class="check-row"><div class="check-when">Today</div><div class="check-what"><b>Tokyo hotel, 20–23 September.</b> Four Silver Week nights. Rakuten Travel, Jalan and hotel-direct consistently beat Booking and Agoda for Japanese chains, and MIMARU's own site has free cancellation to about a week out.</div></div>
+      <div class="check-row"><div class="check-when">Today</div><div class="check-what"><b>Hakone, 24 September.</b> One night, and the properties with private baths go first.</div></div>
+      <div class="check-row"><div class="check-when">Tomorrow<br>11:00 AEST</div><div class="check-what"><b>Odawara → Kyoto seats on SmartEX.</b> The 25 September window opens 30 days out at 10:00 JST. Four together is the hard part.</div></div>
+      <div class="check-row"><div class="check-when">This week</div><div class="check-what"><b>Tokyo Game Show tickets</b> if you're going — online only, nothing at the venue. And <b>Universal Studios Japan</b> for Monday 28th, plus the Express Pass 7 decision.</div></div>
+      <div class="check-row"><div class="check-when">This week</div><div class="check-what"><b>Odakyu Romancecar</b>, Shinjuku → Hakone-Yumoto for the 24th, via EMot. Already open.</div></div>
+      <div class="check-row later"><div class="check-when">~6 Sep</div><div class="check-what"><b>Shibuya Sky sunset slot.</b> Releases about two weeks ahead at midnight JST and sells out within minutes.</div></div>
+      <div class="check-row later"><div class="check-when">~8 Sep</div><div class="check-what"><b>teamLab Planets</b> (advance only), the <b>Samurai &amp; Ninja Museum</b>, <b>Kaiyukan</b> e-tickets, and the <b>Hakone Open-Air Museum</b> online for the ¥200 saving.</div></div>
+      <div class="check-row later"><div class="check-when">Before you fly</div><div class="check-what"><b>Suica in Apple Wallet</b> for every iPhone, <b>eSIMs</b> (Ubigi 10 GB is about A$25 a phone and has the best Hakone coverage), <b>Visit Japan Web</b> for all four, and <b>3D Secure</b> switched on with your bank.</div></div>
+    </div>
+
+    <h3>Things that have already sailed</h3>
+    <p>Worth knowing so you don't spend a week chasing them. <strong>Ghibli Museum</strong> September tickets released on 10 August and are gone; the October release is 10 September if you'd shift plans, and cancellations occasionally surface on Lawson. <strong>Ghibli Park</strong> September tickets went on sale 10 July — every ticket must be reserved, no exceptions. The <strong>Nintendo Museum</strong> in Uji ran its September lottery back in June; your only route now is the leftover and cancellation sale, checkable daily at <a href="https://museum-tickets.nintendo.com/en">museum-tickets.nintendo.com</a>, so create the Nintendo Accounts with verified mobile numbers now rather than while a ticket sits in a cart. Don't build a day around it.</p>
+    <p>And one that's simply out: <strong>the Mario Kart street go-karting</strong> needs drivers aged 18 or over holding an International Driving Permit, and most operators don't carry under-18 passengers. It doesn't work for a 17- and 14-year-old.</p>
+  </section>
+
+  <footer>
+    <p>Prices researched 25 August 2026 at roughly A$1 = ¥114. Airfares are ranges from aggregator route pages and airline "from" fares, not live quotes — live dated fares block automated lookup, so verify at booking. Schedules, days of operation, pass prices, holiday dates and attraction rules are verified against airline, JR, Odakyu and operator sources. Hotel rates are recent midweek quotes; Silver Week nights will price higher.</p>
+  </footer>
+
+</div>
+
+<script>
+  (function () {
+    var btn = document.getElementById('themeToggle');
+    var root = document.documentElement;
+    btn.addEventListener('click', function () {
+      var explicit = root.getAttribute('data-theme');
+      var isDark = explicit
+        ? explicit === 'dark'
+        : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var next = isDark ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('n2k-theme', next); } catch (e) {}
+    });
+  })();
+</script>
+
+</body>
+</html>
